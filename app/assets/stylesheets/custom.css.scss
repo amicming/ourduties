@@ -1,0 +1,44 @@
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+.jumbotron {
+  margin-bottom: 2em;
+}
+
+.compassme {
+  padding: 3em 1em;
+  color: white;
+}
+/* universal */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 0px;
+}
+section {
+	overflow: auto;
+}
+textarea {
+	resize: vertical;
+}
+
+/* typography */
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1;
+}
+
+h1 {
+	font-size: 3em;
+	letter-spacing: -2px;
+}
+h2 {
+	letter-spacing: -1px;
+}
+p {
+	line-height: 1.7em;
+	text-align:justify;
+}
