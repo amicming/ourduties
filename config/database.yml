@@ -1,0 +1,19 @@
+development:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: sample_db_app
+  pool: 5
+  username: vasistha
+  password: vasistha
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  reconnect: false
+  database: sample_db_app
+  pool: 5
+  username: vasistha
+  password: vasistha
+  host: localhost
